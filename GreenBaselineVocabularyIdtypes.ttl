@@ -29,9 +29,9 @@
   dct:creator <https://orcid.org/0000-0001-6875-5360>;
   dct:conbtributor <https://orcid.org/0000-0001-8888-635X>;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
-  dct:hasVersion "0.8.1";
+  dct:hasVersion "0.9.0";
   dct:created "2022-06-01T00:00:00+00:00"^^xsd:datetime;
-  dct:modified "2025-05-29T18:40:00-07:00"^^xsd:datetime;
+  dct:modified "2025-06-08T16:32:00-07:00"^^xsd:datetime;
   skos:hasTopConcept idtype:identifiertype .
 
 idtype:identifiertype a skos:Concept;
@@ -58,7 +58,7 @@ idtype:arxiv a skos:Concept;
 
 idtype:bibcode a skos:Concept;
   skos:prefLabel "bibcode"@en;
-  skos:definition "Astrophysics Data System bibliographic codes; a standardized 19 character identifier according to the syntax yyyyjjjjjvvvvmppppa. See http://info- uri.info/registry/OAIHandler?ve rb=GetRecord&metadataPrefix= reg&identifier=info:bibcode/"@en;
+  skos:definition "Astrophysics Data System bibliographic codes; a standardized 19 character identifier according to the syntax yyyyjjjjjvvvvmppppa. See http://info- uri.info/registry/OAIHandler?verb=GetRecord&metadataPrefix=reg&identifier=info:bibcode/"@en;
   skos:broader idtype:identifiertype;
   skos:inScheme <https://w3id.org/gofairus/vocs/train1/idtype-grna> .
 
@@ -113,7 +113,7 @@ idtype:issn a skos:Concept;
 
 idtype:istc a skos:Concept;
   skos:prefLabel "ISTC"@en;
-  skos:definition "International Standard Text Code; a unique “number” assigned to a textual work. An ISTC consists of 16 numbers and/or letters."@en;
+  skos:definition "International Standard Text Code; a unique number assigned to a textual work. An ISTC consists of 16 numbers and/or letters."@en;
   skos:broader idtype:identifiertype;
   skos:inScheme <https://w3id.org/gofairus/vocs/train1/idtype-grna> .
 
@@ -167,6 +167,6 @@ idtype:urn a skos:Concept;
 
 idtype:w3id a skos:Concept;
   skos:prefLabel "w3id"@en;
-  skos:definition "Permanent identifier for Web applications. Mostly used to publish vocabularies and ontologies. The letters ‘w3’ stand for “World Wide Web”."@en;
+  skos:definition "Permanent identifier for Web applications. Mostly used to publish vocabularies and ontologies. The letters w3 stand for World Wide Web."@en;
   skos:broader idtype:iri;
   skos:inScheme <https://w3id.org/gofairus/vocs/train1/idtype-grna> .
